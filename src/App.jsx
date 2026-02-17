@@ -1,15 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
-function App(props) {
+import "./App.css";
+import WeatherHero from "./components/WeatherHero";
+
+function App() {
   return (
     <div>
 
-      <h1>hello</h1>
-
-      <p>{props.name}</p>
+      <WeatherHero/>
     </div>
   );
 }
